@@ -14,7 +14,7 @@ namespace Tarea1
 				p.nombre=Console.ReadLine();
 					
 					Console.WriteLine("Ingrese su edad");
-					p.edad=Console.ReadLine();
+					p.edad =int.Parse (Console.ReadLine());
 						
 						Console.WriteLine("Ingrese su correo electronico");
 						p.correo=Console.ReadLine();
