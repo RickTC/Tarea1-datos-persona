@@ -10,16 +10,16 @@ namespace Tarea1
 			
 			Console.WriteLine ("Datos");
 			
-				Console.WriteLine("Ingrese su nombre");
+				Console.WriteLine("Ingrese su nombre:");
 				p.nombre=Console.ReadLine();
 					
-					Console.WriteLine("Ingrese su edad");
+					Console.WriteLine("Ingrese su edad:");
 					p.edad =int.Parse (Console.ReadLine());
 						
-						Console.WriteLine("Ingrese su correo electronico");
+						Console.WriteLine("Ingrese su correo electronico:");
 						p.correo=Console.ReadLine();
 			
-							Console.WriteLine("Sus datos son:");
+							Console.WriteLine("\nSus datos son:");
 							Console.WriteLine("Nombre: "+ p.nombre);
 							Console.WriteLine("Edad: "+ p.edad);
 							Console.WriteLine("Correo: "+ p.correo);
